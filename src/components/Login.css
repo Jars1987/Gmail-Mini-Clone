@@ -1,0 +1,21 @@
+.Login {
+  background-color: #f2f2f2;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.Login__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Login__container > img {
+  object-fit: contain;
+  height: 200px;
+}
+
+#googleButton {
+  background-color: #16537e;
+  color: white;
+}
